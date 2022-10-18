@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panot Liangpiboon's Portfolio</title>
+
+    <!-- OWN CSS FILES-->
+    <link rel="stylesheet" href="../css/coloringpao.css" >
+    <link rel="stylesheet" href="../css/layoutp.css" >
+    <link rel="stylesheet" href="../css/Indicator.css" >
+    <link rel="stylesheet" href="../css/nav.css" >
+    <link rel="stylesheet" href="../css/contact.css" >
+    <!-- END OWN CSS FILES-->
+  </head>
+  <body>
+      <header>
+          <!-- indicator-->
+            <div class="header">
+                <div class="progress-container">
+                    <div class="progress-bar" id="myBar"></div>
+                </div>
+                
+                <div class="topnav" id="myTopnav">
+                    <a href="../Index.html" class="active">Home</a>
+                    <a href="#profilep">Profile</a>
+                    <a href="#skillp">Skills</a>
+                    <a href="#contactp">Contact</a>
+                    <a href="../html/news.html">Take a look my mate's Portfolio</a>
+                    </a>
+                </div>
+              </div>        
+    </header>
+      
+<!--Indicator -->
+      <script>
+          window.onscroll = function() {myFunction()};
+          function myFunction() {
+              var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+              var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+              var scrolled = (winScroll / height) * 100;
+              document.getElementById("myBar").style.width = scrolled + "%";
+          }
+      </script>
+      
+    <div class="bgprofilep">
+    <section id="profilep">
+        <div class="detailcon">
+      <h3>Panot Liangpiboon</h3>
+      <h4>I'm a student! or pliangpi!</h4>
+        <h3>About Me!</h3>
+        <h4>Me, Panot Liangpiboon or Pao in 18 years old sill has a lot of things to learn!<br> So a long way to go!
+            <br>I loves to learn new things to fulfil myself for finding myself.
+            <br> With this website would introduces me and what I have learn for hours</h4>
+        <center>
+        <div class="img"><img alt="Panot Liangpiboon" id="picpao" src="../pics/pao.jpeg"></div>
+        </center>
+        </div>
+      </section>
+        </div>
+      <div class="blackshift"></div>
+      <div class="bgback">
+    <section id="skillp">
+        <h3 class="h3">Skills and Interests</h3>
+        <h4>To Be Honest! I just have been learning how 2 code for no hours!</h4>
+        <h4>I loves to learn a new thing! Because I still don't know myself enough!</h4>
+        <section id="skillbar">
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">40%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">30%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">17%</div>
+        </div>
+
+        <p>English</p>
+        <div class="container">
+            <div class="skills php">60%</div>
+            </div>
+        </div>
+    </section>
+    <section id="contactp">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h3>Contact ME!</h3>
+            </div>
+            <div class="flip-card-back">
+                <a href="../html/contactp.html">paogetthelol@gmail.com</a>
+            </div>
+            </div>
+        </div>
+      </section>
+      <section id="footer">
+      <hr> <p>&copy;pliangpi 2022</p>
+      </section>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Source Code Pro', monospace;*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Source+Code+Pro&display=swap%27");
+
+html {
+  scroll-behavior: smooth;
+}
+
+#profilep , #skillp{
+  padding: 16px;
+  box-sizing :border-box;
+  width : 100%;
+  max-width: 960px;
+  min-width: 360px;
+  margin : auto;
+}
+
+#profilep {
+  padding-top: 85px;
+}
+
+#contactp {
+    padding: 16px;
+    box-sizing :border-box;
+    width : 100%;
+    max-width: 960px;
+    min-width: 360px;
+    margin : auto;
+}
+
+h3 , h4 , p {
+    margin: 15px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h3 {
+    font-size: 42px;
+    color: #333;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.contact {
+    font-size: 24px;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#skillbar {
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+.container {
+    border-radius: 12px;
+  width: 40%;
+  background-color: #ddd;
+}
+
+.skills {
+    border-radius: 12px;
+  text-align: right;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  color: white;
+}
+
+.html {width: 30%; background-color: skyblue;}
+.css {width: 20%; background-color: skyblue;}
+.js {width: 10%; background-color: skyblue;}
+.php {width: 50%; background-color: skyblue;}
+
+.bgprofilep {
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/cloudy-zoom-virtual-background-video-design-template-dc277ad03e88d0f22b297601c58f4ec2_screen.jpg?ts=1586775055);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#footer {
+  background-color: white;
+  text-align: right;
+  font-family: monospace;
+  font-style: italic;
+}

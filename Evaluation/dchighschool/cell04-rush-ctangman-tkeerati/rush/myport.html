@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="icon" type="image/x-icon" href="source/favicon.png">
+    
+    <!--smooth scroll script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--navigation bar-->
+    <div class="block">
+        <nav class="navbar is-fixed-top">
+            <div class="navbar-brand">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="#section1">
+                        about me
+                    </a>
+                    <a class="navbar-item" href="#section2">
+                        experience
+                    </a>
+                    <a class="navbar-item" href="#section3">
+                        contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--title-->
+    <section class="section">
+        <div class="columns is-centered ">
+            <div class="column is-narrow">
+                <div id="title" class="box is-narrow is-size-3-mobile">
+                    <h2> My Portfolio </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about me-->
+    <section id="section1" class="section">
+
+        <div class="container">
+            <div class="box">
+                <div id="subject" class="block mb-6 mt-4 is-underlined">
+                    <h1>About me</h1>
+                </div>
+                <div class="columns is-variable is-8">
+                    <div class="column is-4 is-offset-1">
+                        <img src="source/profile.jpg">
+                    </div>
+                    <div class="column is-7 has-text-left">
+                        <div class="block">
+                            <p>
+                                <strong>Name</strong> : Teerakarn Keeratipakorn
+                            </p>
+                            <p>
+                                <strong>Nickname</strong> : Gview
+                            </p>
+                        </div>
+
+                        <div class="block">
+                            <p>
+                                <strong>secondary school</strong> : Princess Chulabhorn science high school Chonburi
+                            </p>
+                            <p>
+                                <strong>study-program</strong> : math-science
+                            </p>
+                            <p>
+                                <strong>GPA</strong> : 3.93
+                            </p>
+                        </div>
+
+                        <div class="block">
+                            <p>
+                                <strong>Hobbies</strong> : Reading book (Esp. book about the origin of things)
+                            </p>
+                            <p>
+                                playing sudoku and prove the equation
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--experience-->
+    <section id="section2" class="section">
+        <div class="container">
+            <div class="box">
+                <div id="subject" class="block mb-6 mt-4 is-underlined">
+                    <h1>
+                        My experience
+                    </h1>
+                </div>
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-5-desktop is-offset-1-desktop is-full-touch">
+                        <embed src="source/งานเขียนโค้ด (1).pdf" width="100%" height="300px">
+                    </div>
+                    <div class="column is-offset-1-desktop is-4-desktop is-full-touch" height="300px">
+                        <br>
+                        <br>
+                        <div class="block has-text-left is-size-5">
+                            <p>
+                                <strong> Project : สื่อการสอนเรขาคณิต ม.ต้น </strong>
+                            </p>
+                        </div>
+                        <div class="block has-text-left is-size-5">
+                            <p>
+                                เขียนโดยภาษา python
+                            </p>
+                            <p>
+                                มีส่วนของหน้าหลัก แบบเรียน แบบทดสอบ และส่วนทดสอบสร้างรูปสามเหลี่ยม
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-full-desktop is-full-touch">
+                        <hr>
+                    </div>
+
+
+                    <div class="column is-5-desktop is-offset-1-desktop is-full-touch" height="300px">
+                        <div class="block has-text-right is-size-5">
+                            <p>
+                                <strong> Project : รถขนของเดินตามเส้น </strong>
+                            </p>
+                        </div>
+                        <div class="block has-text-right">
+                            <p style="font-size: 18px;">
+                                รถจะเดินไปเรื่อยๆ และเมื่อถึงเส้นสีดำจึงหยุด
+                            </p>
+                            <p style="color:darkred; font-size: 18px;">
+                                ย้ำ!!สีดำสนิท ไม่ใช่น้ำเงินเข้ม
+                            </p>
+                            <p style="font-size: 18px;">
+                                ควบคุมการเดินโดยบอร์ด Arduino และเซนเซอร์ตรวจจับแสง
+                            </p>
+                            <p style="font-size: 18px;">
+                                ข้อมูลเพิ่มเติมสามารถรับชมได้จากในคลิป
+                            </p>
+                        </div>
+                        <div class="block has-text-right"> <button class="button is-link"
+                                onclick="playPause()">Play/Pause</button>
+                        </div>
+
+
+                    </div>
+                    <div class="column is-5-desktop is-offset-1-desktop is-full-touch">
+                        <video id="video1">
+                            <source src="source/สำหรับคลิป รถขนของเดินตามเส้น.mp4" type="video/mp4">
+                            <source src="source/สำหรับคลิป รถขนของเดินตามเส้น.ogg" type="video/ogg">
+                        </video>
+                        <script>
+                            var myVideo = document.getElementById("video1");
+
+                            function playPause() {
+                                if (myVideo.paused)
+                                    myVideo.play();
+                                else
+                                    myVideo.pause();
+                            } 
+                        </script>
+                    </div>
+                    <div class="column is-full-desktop is-full-touch">
+                        <hr>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <img src="source/POSN.jpg">
+                    </div>
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-left">
+                        <br>
+                        <p>
+                            เข้ารับการอบรมโครงการโอลิมปิก สอวน. ค่าย 1 ปีการศึกษา 2564 สาขาคอมพิวเตอร์
+                        </p>
+                        <p>
+                            ณ ศูนย์โอลิมปิกวิชาการ สอวน. มหาวิทยาลัยบูรพา
+                        </p>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <img src="source/cyber.jpg">
+                    </div>
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-left">
+                        <br>
+                        <p>
+                            เข้าร่วมอบรม หัวข้อ woman@cybersecurity
+                        </p>
+                        <p>
+                            โดย NCSA ร่วมกับ Microsofe
+                        </p>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <img src="source/เกียรติบัตร HCEC-053.png">
+                    </div>
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-left">
+                        <br>
+                        <p>
+                            เข้าร่วมอบรมโครงการพัฒนาทักษะด้านดิจิทัลมุ่งสูู่อาชีพนักวิทยาศาสตร์ข้อมูล หรือ Data
+                            scientists
+                        </p>
+                        <p>
+                            โดย สพม.18 HCEC และโรงเรียนชลกันยานุกูล
+                        </p>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <img src="source/เกียรติบัตร YCP 264_Page_26.jpg">
+                    </div>
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-left">
+                        <br>
+                        <p>
+                            เข้าร่วมอบรมโครงการ PIM Young Creative Program ครั้งที่ 264
+                        </p>
+                        <p>
+                            ตอน"The Power of Digital & Technology ปลุกพลังสร้างสรรค์ สู่สายงานยุคดิจิทัล
+                        </p>
+                        <p>
+                            โดย สถาบันการจัดการปัญญาภิวัฒน์
+                        </p>
+                    </div>
+
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-right">
+                        <br>
+                        <p>
+                            เข้าร่วมกิจกรรม Science Education Week หัวข้อ Digital Literacy
+                        </p>
+                        <p>
+                            โดย สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน
+                        </p>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <img src="source/science week .jpg">
+                    </div>
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-right">
+                        <br>
+                        <p>
+                            เข้าร่วมฟังบรรยาย หัวข้อ"การตอบแทนสังคม นักวิทย์รุ่นใหม่"
+                        </p>
+                        <p>
+                            โดย ดร.อุเทน แสวงวิทย์
+                        </p>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <img src="source/การตอบแทนสังคม นักวิทย์รุ่นใหม่.JPG">
+                    </div>
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-right">
+                        <br>
+                        <p>
+                            เข้าร่วมกิจกรรมขยายพันธุ์และฟื้นฟูปะการังอ่อน ณ เกาะสีชัง จ.ชลบุรี
+                        </p>
+                        <p>
+                            ร่วมกับกลุ่ม ONE FINE DAY
+                        </p>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <embed src="source/sea cer .pdf" width="100%" height="100%">
+                    </div>
+                    <div class="column is-one-quarter-desktop is-three-fifths-touch has-text-right">
+                        <br>
+                        <p>
+                            แสดงนาฏศิลป์ประยุกต์ เปิดนิทรรศการวิทยาศาสตร์
+                        </p>
+                        <p>
+                            ณ โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ชลบุรี
+                        </p>
+
+                    </div>
+                    <div class="column is-one-quarter-desktop is-two-fifths-touch">
+                        <img src="source/dance.jpg">
+                    </div>
+                    <div class="column is-full-desktop is-full-touch">
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section id="section3" class="section">
+        <div class="container">
+            <div class="box">
+                <div id="subject" class="block mb-6 mt-4"">
+                    <h1> <strong>Contact me</strong> </h1>
+                </div>
+                <form action=" https://formsubmit.co/keeratiview@gmail.com" method="POST">
+                    
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">From</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="text" placeholder="Name" name="name" required>                                                             
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control is-expanded has-icons-left has-icons-right">
+                                    <input class="input" type="email" placeholder="Email" name="email" required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Subject</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="e.g. scrolarship opportunity"
+                                        name="subject" required>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Message</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <textarea class="textarea" placeholder="You're message" name="message"
+                                        required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <!-- Left empty for spacing -->
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <a href="mailto:keeratiview@gmail.com">
+                                        <button class="button is-primary" type="submit">
+                                            Send email
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="_next" value="https://keeratitee.github.io/lunch/thankyou.html"> 
+                    </form>
+                </div>
+            </div>
+            <!--contact-->
+
+    </section>
+
+    <p style="text-align:right ;">
+        © tkeerati 2022
+    </p>
+
+</body>
+</html>

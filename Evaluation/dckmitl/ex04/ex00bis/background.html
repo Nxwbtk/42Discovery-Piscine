@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backgroound</title>
+    <link rel="stylesheet" href="backgroound.css">
+</head>
+
+<body>
+    <button onclick="changeColor()">Click Me!</button>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+        integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script>
+        const changeColor = () => {
+            $("body").css('background-color', "#" + Math.floor(Math.random() * 16777216).toString(16))
+        }
+    </script>
+</body>
+
+</html>

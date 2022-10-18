@@ -1,0 +1,52 @@
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Source Code Pro', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Source+Code+Pro&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    font-family: Source Code Pro', monospace;
+}
+
+.img {
+    display: block;
+}
+
+#picpao {
+    width: auto;
+    border-radius: 7px;
+    height: 250px;
+    max-width:350px;
+}
+
+#skillbar {
+    padding: inherit;
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+
+/* Container for skill bars */
+.container {
+    border-radius: 12px;
+  width: 40%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 12px;
+  text-align: right; /* Right-align text */
+  padding-top: 2.5px; /* Add top padding */
+  padding-bottom: 2.5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 40%; background-color: #F16F6F;} /* Green */
+.css {width: 30%; background-color: #F16F6F;} /* Blue */
+.js {width: 20%; background-color: #F16F6F;} /* Red */
+.php {width: 60%; background-color: #F16F6F;} /* Dark Grey */

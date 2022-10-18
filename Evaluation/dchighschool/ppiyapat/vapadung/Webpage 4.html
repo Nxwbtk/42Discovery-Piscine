@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact us</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="page4">
+  <script>
+	function formSubmit() {
+		var x = document.forms["myForm"]["name"].value;
+		var y = document.forms["myForm"]["email"].value;
+		if ( x == "") {
+			window.alert("Please fill your name");
+		}
+		if ( y == "") {
+			window.alert("Please fill your email");
+		}
+		else {
+			window.alert("Your form has been submitted");
+		}
+	}
+  </script>
+  <div class="topnav">
+	<a href="Webpage 1.html">Home</a>
+	<a href="Webpage 2.html">About us</a>
+	<a href="Webpage 3.html">Project</a>
+	<a class="active" href="Webpage 4.html">Contact us</a>
+  </div>
+    <div class='title4'>
+		Contact Us
+	</div>
+	<div class="tel">
+		<img src="icontelephone.png"><br>
+		000-0000000
+	</div>
+	<div class="email">
+		<img src="iconmail.png"><br>
+		name@gmail.com
+	</div>
+	<form name='myForm' class='contactform' onsubmit="return formSubmit()" method="post">
+		<input type="text" id="name" name="name" placeholder="Name"><br>
+		<input type="email" id="email" name="email" placeholder="Email"><br>
+		<div class='textarea'>
+			<textarea rows="4" cols="40" name="message" placeholder="Message" style="height:250px"></textarea>
+		</div>
+		<input type="submit" value="Submit">
+	</form>
+	
+</body>
+</html>

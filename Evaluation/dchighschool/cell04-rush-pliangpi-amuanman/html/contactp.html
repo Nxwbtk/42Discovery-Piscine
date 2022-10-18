@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact ME!</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Source+Code+Pro&display=swap");
+      /*font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Source Code Pro', monospace;*/
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+        font-family: "Source Code Pro", monospace;
+      }
+
+      html {
+        background-size: cover;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(51%2c 51%2c 51%2c 1)'%3e%3c/rect%3e%3cpath d='M1031.09 520.33 a219.97 219.97 0 1 0 439.94 0 a219.97 219.97 0 1 0 -439.94 0z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M348.261%2c757.584C429.128%2c763.704%2c515.854%2c742.465%2c559.302%2c673.987C605.366%2c601.386%2c598.67%2c506.824%2c553.959%2c433.382C510.964%2c362.759%2c430.899%2c324.676%2c348.261%2c327.329C270.091%2c329.839%2c199.722%2c376.198%2c164.235%2c445.894C131.645%2c509.902%2c149.616%2c583.895%2c186.134%2c645.746C221.91%2c706.34%2c278.095%2c752.274%2c348.261%2c757.584' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M919.79 647.58 a225.78 225.78 0 1 0 451.56 0 a225.78 225.78 0 1 0 -451.56 0z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1933.8200939941974 145.37961120523585L1800.9221146311447 12.481631842183276 1668.024135268092 278.2775905682885z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1205.5320564692363 319.4480735205143L1056.9826808664268 237.1058100362199 1007.7439734413899 501.10100518258133z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M619.9076355097852 858.8277237936135L741.1628452963784 1061.066610348952 844.2276129434135 882.5531963140061z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1415.127%2c912.166C1520.568%2c912.447%2c1613.532%2c845.629%2c1663.532%2c752.797C1711.021%2c664.628%2c1705.219%2c557.446%2c1651.81%2c472.732C1601.76%2c393.346%2c1508.907%2c362.328%2c1415.127%2c358.796C1313.052%2c354.951%2c1199.658%2c367.107%2c1145.41%2c453.659C1088.726%2c544.097%2c1114.888%2c659.482%2c1169.005%2c751.479C1222.249%2c841.992%2c1310.115%2c911.886%2c1415.127%2c912.166' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1725.1242463322565 1000.44579767666L2029.4899923380422 1099.6610130796691 1976.0935194831684 824.9599742154799z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M773.1582375668086 57.26334374709957L650.6887625280598 179.73281878584834 773.1582375668086 302.2022938245971 895.6277126055573 179.73281878584834z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-22.46 612.81 a293.14 293.14 0 1 0 586.28 0 a293.14 293.14 0 1 0 -586.28 0z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M162.28791690847225-104.94484869121239L-87.6828068099259 39.058353947112806 128.47702319981238 168.94028321565634z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M852.413%2c711.702C890.797%2c713.647%2c931.235%2c702.508%2c951.521%2c669.865C972.771%2c635.67%2c970.027%2c591.186%2c948.416%2c557.218C928.233%2c525.493%2c890.01%2c513.515%2c852.413%2c514.085C815.964%2c514.637%2c779.306%2c528.346%2c761.322%2c560.054C743.539%2c591.408%2c750.737%2c629.732%2c769.298%2c660.632C787.244%2c690.508%2c817.606%2c709.938%2c852.413%2c711.702' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+      }
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #F16F6F;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      .footer {
+        text-align: right;
+        font-family: monospace;
+        font-style: italic;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <form action="../Index.html">
+
+        <label for="email">Your Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Your email.."
+        />
+
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="thailand">Thailand</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div class="footer">
+      <hr />
+      &copy; pliangpi &#38; amuanman 2022
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Source Code Pro', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Source+Code+Pro&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+#profilep , #skillp{
+    padding: 16px;
+    box-sizing :border-box;
+    width : 100%;
+    max-width: 960px;
+    min-width: 360px;
+    margin : auto;
+    border: 1px solid black;
+}
+
+#profilep {
+    padding-top: 85px;
+}
+
+#contactp {
+    padding: 16px;
+    box-sizing :border-box;
+    width : 100%;
+    max-width: 960px;
+    min-width: 360px;
+    margin : auto;
+}
+
+#footer {
+    width : 100%;
+    min-width: 120px;
+    margin : auto;
+}
+
+#profilep {
+    background-color: white;
+
+}
+
+h3 , h4 , p {
+    margin: 15px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h3 {
+    font-size: 42px;
+    color: #333;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.bgprofilep {
+    background-image: url(../pics/bg.png); /* bgcolor F16F6F */
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.blackshift {
+  background-image: url(../pics/bg.png);
+  width:100%;
+  height:60vh;
+}
+
+.bgback {
+    background-image: url(../pics/bg.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#skillp {
+    background-color: white;
+}
+
+#contactp {
+    background-color: white;
+    height: 100%;
+}
+
+.contact {
+    font-size: 24px;
+    text-align: center;
+}
+
+#footer {
+    background-color: white;
+    text-align: right;
+    font-family: monospace;
+    font-style: italic;
+    color:salmon;
+}

@@ -1,0 +1,112 @@
+
+
+body{
+    background-image: linear-gradient(180deg, rgba(86, 23, 221, 0.347) 29.17%,
+     rgba(69, 21, 191, 0.2) 76.04%,
+      rgba(117, 189, 255, 0.2) 99.97%,
+     rgba(139, 199, 255, 0.313) 99.98%);
+    height: 100vh;
+}
+
+
+.top-left {
+    width: 42px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 47px;
+    left: 120px;
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+
+.resume {
+    color: rgba(255,255,255,1);
+    font-family: Poppins;
+    font-weight: ExtraBold;
+    font-size: 96px;
+    opacity: 1;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 8rem;
+
+  }
+
+.titu {
+    color: rgba(255,255,255,1);
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 20px;
+    text-align: center;
+    margin: 3cm;
+  }
+
+.try{
+    align-items: center;
+    line-height: 1px;
+}
+
+.warp-one {
+    background: linear-gradient(rgba(73,53,196,1), rgba(41,198,225,1));
+    width: 69px;
+    color: rgba(255,255,255,1);
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 18px;
+    opacity: 1;
+  }
+
+.warp-two {
+    background: linear-gradient(rgba(73,53,196,1), rgba(41,198,225,1));
+    width: 69px;
+    color: rgba(255,255,255,1);
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 18px;
+    opacity: 1;
+
+  }
+
+.wow{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+  padding: 20px 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
+  position: relative;
+  margin: 20px;
+  transition: all 0.25s ease;
+}
+.btn-1{
+  color:#fff;
+  overflow :hidden;
+  border-radius: 30px;
+  box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, 0.5),
+  0px 0px 0px 0px rgba(39, 200, 255, 0.5);
+}
+.btn-1 :hover{
+  transform: translate(0,-6px);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, 0.5),
+  -10px 10px 25px 0px rgba(39, 200, 255, 0.5);
+}
+.btn-1:hover:after{
+  transform: rotate(150deg);
+}
+.btn-1::after{
+  content: "";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg,#27d86c 0%,#26caf8 50%,#c625d0 100%);
+  z-index: -1;
+  transition: all 0.25s ease;
+}

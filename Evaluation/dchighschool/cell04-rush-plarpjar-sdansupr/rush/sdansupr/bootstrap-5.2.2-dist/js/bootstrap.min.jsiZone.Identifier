@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://getbootstrap.com/
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/2126244/22ab363e-506a-4d05-9abf-84dbe41ee252?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20221013%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221013T122530Z&X-Amz-Expires=300&X-Amz-Signature=1398b2dd30da1e811a8c20008afb9580ced0d7fbd1ee7395e043e241d6918aa5&X-Amz-SignedHeaders=host&actor_id=95995049&key_id=0&repo_id=2126244&response-content-disposition=attachment%3B%20filename%3Dbootstrap-5.2.2-dist.zip&response-content-type=application%2Foctet-stream

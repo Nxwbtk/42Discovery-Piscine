@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="page1">
+	<script>
+	function formSubmit() {
+		var x = document.forms["myForm"]["name"].value;
+		var y = document.forms["myForm"]["email"].value;
+		if ( x == "") {
+			window.alert("Please fill your name");
+		}
+		if ( y == "") {
+			window.alert("Please fill your email");
+		}
+		else {
+			window.alert("Your form has been submitted");
+		}
+	}
+	</script>
+	<nav>
+	<div class="topnav">
+		<a href="#one" id="sec-1">Home</a>
+		<a href="#two" id="sec-1">About me</a>
+		<a href="#three" id="sec-1">Work Experience</a>
+		<a href="#four" id="sec-1">Contact us</a>
+	</div>
+	</nav>
+	<div class="home" id="one">
+		<h1 class="hometitle">Varis Padungkitcharoen</h1>
+		<h4 class="hometitle2">An App Developer</h4>
+	</div>
+	<div class="aboutme" id="two">
+		<div class="title1">
+			<h2>About Me</h2>
+			<p>Lorem ipsum dolor sit amet</p>
+		</div>
+		<div class="aboutme-content">
+			<div class="profile">
+				<img src="profile.jpg" class="profile-pic">
+			</div>
+			<div class='textbox'>
+				<div class='title'>
+				I AM APP DESIGNER
+				</div>
+				<div class="info">
+				<ul>
+					<li>Name: Varis Padungkitcharoen</li>
+					<li>Age: 18</li>
+					<li>Education: High school</li>
+					<li>Website: www.example.com</li>
+				</ul>
+				</div>
+				<div class='paragraph'>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class='readmore'>
+				READ MORE
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="experience" id="three">
+		<div class='title2'>
+			Keng
+		</div>
+		<div class='paragraph2'>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="section">
+		<div class='section1'>
+			<img src="iconcamera.png">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class='readmore2'>
+			READ MORE
+			</div>
+			</div>
+			<div class='section2'>
+			<img src="iconwifi.png">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class='readmore3'>
+			READ MORE
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="contact" id="four">
+		<div class='title4'>
+			Contact Me
+		</div>
+		<div class="tel">
+			<img src="icontelephone.png"><br>
+			000-0000000
+		</div>
+			<div class="email">
+			<img src="iconmail.png"><br>
+			name@gmail.com
+		</div>
+		<form name='myForm' class='contactform' onsubmit="return formSubmit()" method="post">
+		<input type="text" id="name" name="name" placeholder="Name"><br>
+		<input type="email" id="email" name="email" placeholder="Email"><br>
+		<div class='textarea'>
+			<textarea rows="4" cols="40" name="message" placeholder="Message" style="height:250px"></textarea>
+		</div>
+		<input type="submit" value="Submit">
+	</form>
+	</div>
+</body>
+</html>

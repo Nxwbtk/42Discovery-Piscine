@@ -1,0 +1,78 @@
+body{
+    background-image: url(source/background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    opacity: 94%;
+    text-align: center;
+}
+
+#subject{
+    font-size: 30px ;
+}
+
+
+a{
+    color: #e43c5c;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ea6981;
+    text-decoration: none;
+  }
+
+  
+nav a,
+nav a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(34, 30, 30);
+    font-size: 15px;
+    padding: 0 4px;
+    white-space: nowrap;
+    transition: 0.3s;
+    letter-spacing: 0.4px;
+    position: relative;
+  }
+  
+nav a,
+nav a:focus {
+    font-size: 15px;
+    line-height: 0;
+    margin-left: 6px;
+  }
+  
+  
+  
+nav a:hover:before,
+nav .active:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus {
+    color: rgb(228, 90, 90);
+
+  }
+    
+  
+  
+
+#title{
+    font-feature-settings:"smcp" ;
+    font-size: 50px;
+}
+#section1{
+
+}
+#section2{
+
+}
+#section3{
+
+}

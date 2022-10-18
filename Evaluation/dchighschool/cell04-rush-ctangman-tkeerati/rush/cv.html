@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;800&display=swap" rel="stylesheet">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <nav >
+
+        <ul class="menu" id="menu">
+            <li class="logo"><a class="a" href="#">ctangnam</a></li>
+            <li class="item"><a class="hover" href="#home">Home</a></li>
+            <li class="item"><a class="hover" href="#profile">Profile</a></li>
+           
+                <li class="item"><a class="hover" href="#contact">Contact</a></li>
+            <li class="item"><a class="icon" href="https://www.facebook.com/jiratchaya.tangnamprasert/">
+                <i class="fa-brands fa-facebook"></i></a>
+                <a class="icon" href="https://www.instagram.com/mameememee/?hl=en"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="toggle" style="padding: 20px;"><a href="#"><i style="color: #ffffe7 "class="fa-solid fa-bars"></i></i>
+                </a></li>
+        </ul>
+
+    </nav>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                    $(this).find("a").html("<i style='color: #ffffe7' class='fas fa-bars'></i>");
+                } else {
+                    $(".item").addClass("active");
+                    $(this).find("a").html("<i  style='color: #ffffe7' class='fas fa-times'></i>");
+                }
+            });
+        });
+    </script>
+
+
+    <div class="parallax" id="home">
+        <div class="caption">
+            <span class="border">Hello, I'm Chiratchaya
+                <br />
+                <div class="home">I'm a student from Princess Chulabhorn Science High School Chonburi</div>
+
+            </span>
+        </div>
+    </div>
+    <div class="parallax2" id="profile">
+        <div class="WhiteBox">
+            <div class="box1">
+
+                <div class="caption2">
+                    <div><img class="circle"
+                            src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t1.15752-9/311523294_512353940416022_9220254635858816176_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHcCBsSjiquBcY3etIpR-k7XgjRW20aqC1eCNFbbRqoLRKuBONRQI4XUwMsQMZG2yjoo1CBRfbH1mHlWByPbTEG&_nc_ohc=7Cgsm4uD9HcAX8AZeGR&_nc_ht=scontent.fbkk5-7.fna&oh=03_AdQo1jqeM0kZjMm8aYl_IwQ8btTqnLqHfAkqjDC54KggrQ&oe=63707713">
+                    </div>
+                    <h1 class="profile">PROFILE</h1>
+
+                    <p class="profile2"> Personal information</p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="block1">
+                    <div class="topic">
+                        <div class="subTopic">About me</div>
+                    </div>
+                    </br>
+                    </br>
+                    <div class="yellow">Name: <span class="blue">Chiratchaya Tangnamprasert</span></div>
+                    <div class="yellow">Nickname: <span class="blue">Meepooh </span><span class="yellow2 mar">Age: <span
+                                class="blue">18</span></span></div>
+                    <div class="yellow">Birthday: <span class="blue">17 August 2004</span></div>
+                    <div class="yellow">Nationality: <span class="blue">Thai</span></div>
+                    <div class="yellow">Favorite subjrcts: <span class="blue">Math & Physics</span></div>
+                    <div class="yellow">Hobbies: <span class="blue"> Playing Sport & Watching Youtube</span></div>
+                    <div class="yellow">Interest: <span class="blue">Computer Coding & Quantum Computing</span></div>
+                    </br>
+                </div>
+                <div class="block1" style="background-color:transparent;">
+                    
+                    <div class="skill">
+                        <div class="topic"style="color: #1a496e; height: 60px; ">
+                            <div class="subTopic">My skills</div>
+                        </div>
+                        <li><h3>HTML</h3>
+                            <span class="bar"><span class="html"></span></span>
+                        </li>
+                        <li><h3>CSS</h3>
+                        <span class="bar"><span class="css"></span></span>
+                        </li>
+                        <li><h3>JavaScript</h3>
+                        <span class="bar"><span class="javascript"></span></span>
+                        </li>
+                        <li><h3>Python</h3>
+                        <span class="bar"><span class="python"></span></span>
+                        </li>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="topic2">
+                        <div class="subTopic2">Motto</div>
+                    </div>
+                    </br>
+                    </br>
+                    <div>
+                        <span class="blue centerMotto">"Live in the present, learn from the past and remember to plan
+                            in the future"
+                            </br>
+                            <div style="color: transparent;">k</div>
+                        </span>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <div class="parallax2" id= "experiences">
+        <div class="WhiteBox" style="border: solid 5px #ffbb00; outline: solid 9px #1a496e;">
+           <div class="Ex">My Experiences</div>
+<div class="timeline">
+    <div class="container1 left">
+      <div class="content">
+        <h2>November, 2020</h2>
+        <p>I got silver coin Academic war competition in Physics</p>
+        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/305860834_5534984476577817_2744395743618318526_n.jpg?stp=dst-jpg_p403x403&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE3ByIHbafedqPUEyql3SEPFmGNetTcb5sWYY161Nxvm0u1DwEzFhUxFNbXSUFd9OcApzQbebSVPSpPX1n-lIVd&_nc_ohc=WQynqJcAM8IAX8zpiN7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQbWPg7AKhv486nJxn5usC3xN0rIgeCIVeFmNBYPYNmwA&oe=6372B3B6" class="pox">
+      </div>
+    </div>
+    <div class="container1 right">
+      <div class="content">
+        <h2>November-December, 2020</h2>
+        <p>Participate STEM Education by OTAGO University</p>
+        <img src="https://scontent.fbkk5-4.fna.fbcdn.net/v/t1.15752-9/309898820_457706269544824_323419107960237115_n.jpg?stp=dst-jpg_s280x280&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEsBGQvPYcFPpJdpKK7wl4JZtxhwcIafSNm3GHBwhp9I17urKFvbKNziMpfLAgbmwtsuJOxEXH-g3nyWrvy8Yre&_nc_ohc=dAOZMIrgs9MAX-faHba&_nc_ht=scontent.fbkk5-4.fna&oh=03_AdSNmPsNzXdiCuGiI_bpwlcL_4tlBedDBs83aH_10Okvmg&oe=6372D369" class="pox">
+      </div>
+    </div>
+    <div class="container1 left">
+        <div class="content">
+          <h2>March-Apirl, 2021</h2>
+          <p>Participate Physics POSN</p>
+          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/308491455_1605405403196192_3933050874413890865_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFQ3sgOCgbh6QkRn7fFVhGLKbyQbfnulh8pvJBt-e6WH6p5JwKuWd6LnQNscljsolbFZZJGFXTHJIEwRHGJAUrI&_nc_ohc=UDTfYMNL78QAX9MsT1l&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRmAswgM7-SipUwpPVb_ddOWDxtzy1C3ydoeQN5GeVhQA&oe=63709B06" class="pox">
+        </div>
+      </div>
+      <div class="container1 right">
+        <div class="content">
+          <h2>May, 2021</h2>
+          <p>Enrolled in C language course at King Mongkut's University of Technology Thonburi</p>
+          <img src= "https://scontent.fbkk5-8.fna.fbcdn.net/v/t1.15752-9/311411359_597605858822075_393330532651708988_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEb4AeUukvb_kBlKI_7exj70TV1l2ZlqejRNXWXZmWp6D29MFRbt5ivsVk2LS1amLtqN0p5geTi-sc46gq8pufO&_nc_ohc=KOwoCALu3OQAX9spYUY&tn=TOtTEhr5ISY2vzqz&_nc_ht=scontent.fbkk5-8.fna&oh=03_AdTdDBDFrzTJRTnopevpQPQ7VfMZN7N2Pw0aiClIF2es4w&oe=63743933" class="pox">
+        </div>
+      </div>
+      <div class="container1 left">
+        <div class="content">
+          <h2>October, 2021 -September, 2022</h2>
+          <p>Create Application Fight for Binge by React</p>
+          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/306617876_461806909262799_6511908116339386847_n.png?stp=dst-png_p403x403&_nc_cat=107&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHUTbx3VuyFjF6wcs6xdk1Xx23r_1XCBWjHbev_VcIFaIaFbwC3jvK0fTyb2YPLWHDrONiJDcUs6P2ObQU5ngby&_nc_ohc=2QrQLz0_SQ8AX9rqIF8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTZRl_R8NLDpYxYKjko4olE0VquiU_IyejbiyqHWXgZtA&oe=637303EF" class="pox">
+        </div>
+      </div>
+      <div class="container1 right">
+        <div class="content">
+          <h2>September, 2022</h2>
+          <p>Organize activities for children in the area of ​​the Border Patrol Police Headquarters</p>
+          <img src= "https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.15752-9/311923394_438066721730882_979506611378230613_n.jpg?stp=dst-jpg_p403x403&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGOJtPRxN3f64kW7JvJ3P0-jXPKdo4fjh6Nc8p2jh-OHi_HrORIXKa0GesdDeTrLKtobbFub2aol88jS-d4EFjX&_nc_ohc=dgLL8H3G5s8AX8Wrmgl&_nc_ht=scontent.fbkk5-3.fna&oh=03_AdT7XfylmWjvlbcyOZrcu8sslMT35OW3QoXs7EXclJGqwg&oe=6370D5B7" class="pox">
+        </div>
+      </div>
+    </br>
+    <div style="color: transparent;">k</div>
+  </div>
+        </div></div>
+        
+      
+   
+
+<div class="width" id="contact">
+    <div class="container" >
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Contact me <i class="fa-solid fa-phone"></i> </h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="phone" placeholder="Phone no." required>
+            <textarea id="massage" rows="4" placeholder="Massages"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "moomoo@gmail.com",
+                Password: "C175C22DAD2D39C2CAB49391C8C445253008",
+                To: 'pooh90900@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New Contact",
+                Body: "Name: " + document.getElementById("name").value
+                    + "</br> Email: " + document.getElementById("email").value
+                    + "</br> Phone no: " + document.getElementById("phone").value
+                    + "</br> Massage: " + document.getElementById("massage").value
+            }).then(
+                message => alert("Massage Sent Succesfully")
+            );
+        }
+    </script>
+</body>
+
+</html>
